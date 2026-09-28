@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="22"
+        android:translateY="22"
+        android:scaleX="2.66"
+        android:scaleY="2.66">
+        <!-- Rounded video frame outline -->
+        <path
+            android:pathData="M3,6 C3,4.34 4.34,3 6,3 L18,3 C19.66,3 21,4.34 21,6 L21,18 C21,19.66 19.66,21 18,21 L6,21 C4.34,21 3,19.66 3,18 Z"
+            android:strokeWidth="1.8"
+            android:strokeColor="#3F51B5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Minimalist audio wave / musical bar lines -->
+        <path
+            android:pathData="M7,12 L7,14 M10,9 L10,16 M13,7 L13,17 M16,11 L16,15"
+            android:strokeWidth="1.9"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
