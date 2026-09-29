@@ -8,9 +8,9 @@ val DarkSurface = Color(0xFF181B22)
 val DarkSurfaceElevated = Color(0xFF212530)
 val DarkBorder = Color(0xFF2C3140)
 
-val AccentPrimary = Color(0xFF3D68FF)
-val AccentPrimaryHover = Color(0xFF294BCC)
-val AccentSubtle = Color(0xFF1E284A)
+val AccentPrimary = Color(0xFF2563EB)
+val AccentPrimaryHover = Color(0xFF1D4ED8)
+val AccentSubtle = Color(0xFF172554)
 
 val TextPrimary = Color(0xFFF0F2F5)
 val TextSecondary = Color(0xFF8F96A6)

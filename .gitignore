@@ -38,3 +38,4 @@ Desktop.ini
 # Keystore / Signing files
 *.jks
 *.keystore
+keystore.properties

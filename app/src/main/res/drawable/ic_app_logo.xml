@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="1025"
+    android:viewportHeight="1003">
+
+    <!-- Right "D" Arch - Deep Royal Blue -->
+    <path
+        android:fillColor="#FF1D4ED8"
+        android:pathData="M578,721.3l0,90.9c0,52.41 -35.27,96.98 -83.24,111.16l92.58,0c240.39,0 437.08,-196.68 437.08,-437.08l0,-49.2c0,-240.39 -196.68,-437.08 -437.08,-437.08l-92.58,0c47.98,14.18 83.24,58.75 83.24,111.16l0,90.9 0,519.24z" />
+
+    <!-- Left "J" Musical Note Stem - Vivid Royal Blue -->
+    <path
+        android:fillColor="#FF3B82F6"
+        android:pathData="M293.04,999.13c0,0 0.01,0 0.01,-0 163.69,-28.74 251.76,-168 251.76,-293.5l0,-545.55c0,-19.42 -1.94,-38.42 -5.61,-56.82 -15.81,-49.77 -63.23,-86.16 -118.87,-86.16 -68.46,0 -124.47,55.09 -124.47,122.42l0,516.66c0,5.59 -0.6,11.05 -1.75,16.32 -6.96,32.01 -33.95,56.77 -67.05,60.37 24.63,24.22 39.9,57.91 39.9,95.18 0,73.72 -59.76,133.48 -133.48,133.48 -18.84,0 -36.76,-3.9 -53.01,-10.94 47.74,32.78 105.42,52.01 167.38,52.01 15.36,0 30.45,-1.18 45.2,-3.46z" />
+
+    <!-- Note Head Circle - Pure Royal Blue -->
+    <path
+        android:fillColor="#FF2563EB"
+        android:pathData="M 0,828.04 a 133.48,133.48 0 1,0 266.96,0 a 133.48,133.48 0 1,0 -266.96,0 Z" />
+
+    <!-- 9 Equalizer Audio Wave Bars - Pure Crisp White -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M789.2,322.16l0,279.03c0,11.36 19.74,11.36 19.74,0l0,-279.03c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M828.68,361.65l0,200.06c0,11.36 19.74,11.36 19.74,0l0,-200.06c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M749.71,361.65l0,200.06c0,11.36 19.74,11.36 19.74,0l0,-200.06c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M710.22,401.13l0,121.09c0,11.36 19.74,11.36 19.74,0l0,-121.09c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M868.17,401.13l0,121.09c0,11.36 19.74,11.36 19.74,0l0,-121.09c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M907.65,420.88l0,81.6c0,11.36 19.74,11.36 19.74,0l0,-81.6c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M670.74,420.88l0,81.6c0,11.36 19.74,11.36 19.74,0l0,-81.6c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M630.59,440.62l0,42.12c0,11.36 19.74,11.36 19.74,0l0,-42.12c0,-11.36 -19.74,-11.36 -19.74,0z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M947.8,440.62l0,42.12c0,11.36 19.74,11.36 19.74,0l0,-42.12c0,-11.36 -19.74,-11.36 -19.74,0z" />
+</vector>

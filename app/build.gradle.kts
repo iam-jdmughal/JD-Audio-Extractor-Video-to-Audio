@@ -1,3 +1,6 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -15,12 +18,26 @@ android {
         versionCode = 1
         versionName = "1.0.0"
 
-        // APK Size Optimization: Keep only required language resources
-        resourceConfigurations += listOf("en")
-
         // ABI filter: only package 64-bit & 32-bit ARM (prevents multi-architecture bloat)
         ndk {
             abiFilters += listOf("arm64-v8a", "armeabi-v7a")
+        }
+    }
+
+    signingConfigs {
+        create("release") {
+            val keystorePropertiesFile = rootProject.file("keystore.properties")
+            if (keystorePropertiesFile.exists()) {
+                val properties = Properties()
+                FileInputStream(keystorePropertiesFile).use { stream ->
+                    properties.load(stream)
+                }
+                val rawPath = properties.getProperty("storeFile", "release-keystore.jks")
+                storeFile = rootProject.file(rawPath.replace("../", ""))
+                storePassword = properties.getProperty("storePassword")
+                keyAlias = properties.getProperty("keyAlias")
+                keyPassword = properties.getProperty("keyPassword")
+            }
         }
     }
 
@@ -28,6 +45,7 @@ android {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -70,6 +88,7 @@ dependencies {
 
     // Core & Lifecycle
     implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
