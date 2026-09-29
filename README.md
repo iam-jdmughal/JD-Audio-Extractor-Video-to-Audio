@@ -13,7 +13,7 @@
 
 **JD Audio Extractor** is a high-performance, lightweight Android application created by **JD Mughal** to extract lossless audio tracks directly from video files without bulky FFmpeg binaries or battery-draining transcoding.
 
-[📥 Download Latest APK](https://github.com/iam-jdmughal/JD-Audio-Extractor-Video-to-Audio/releases/latest) • [⚡ Features](#-key-features) • [🛠️ Architecture](#-technical-architecture) • [🚀 How to Build](#-building-from-source)
+[📥 Download Latest APK](https://github.com/iam-jdmughal/JD-Audio-Extractor-Video-to-Audio/releases/latest) • [📱 Screenshots](#-screenshots) • [⚡ Features](#-key-features) • [🛠️ Architecture](#-technical-architecture) • [🚀 How to Build](#-building-from-source)
 
 </div>
 
@@ -22,6 +22,16 @@
 ## 🌟 What is JD Audio Extractor?
 
 **JD Audio Extractor** is an open-source mobile tool that demuxes audio tracks directly from video containers (MP4, MKV, WebM, MOV, 3GP, TS) into pure M4A/AAC audio. Unlike traditional converters that decode and re-encode audio samples (wasting time and reducing sound quality), **JD Audio Extractor** operates at the native hardware stream level for near-instant, 100% bit-for-bit lossless extraction.
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/1_select_video.jpg" width="31%" alt="1. Select Video Screen" />
+  &nbsp;&nbsp;
+  <img src="screenshots/2_extract_audio.jpg" width="31%" alt="2. Ready to Extract" />
+  &nbsp;&nbsp;
+  <img src="screenshots/3_audio_player.jpg" width="31%" alt="3. Audio Extracted & Player" />
+</p>
 
 ---
 
